@@ -1,0 +1,123 @@
+{
+  "appName": {
+    "message": "Ekstensi Brave",
+    "description": "The name of the the extension."
+  },
+
+  "shieldsStatsAdsTrackersBlocked": {
+    "message": "Iklan dan Pelacak Diblokir",
+    "description": "Website ads and trackering elements such as pixels, images, scripts, etc."
+  },
+  "shieldsStatsHttpsUpgrades": {
+    "message": "Peningkatan HTTPS",
+    "description": "Label for shields stats, HTTPS upgrades count"
+  },
+  "shieldsStatsScriptsBlocked": {
+    "message": "Script Diblokir",
+    "description": "Label for shields stats, Scripts Blocked count"
+  },
+  "shieldsFingerPrintingBlocked": {
+    "message": "Metode Pengambilan Sidik Jari Diblokir",
+    "description": "Label for shields stats, Fingerprinting Methods Blocked count"
+  },
+
+  "shieldsHeaderShieldsToggle": {
+    "message": "Pelindung",
+    "description": "Label for top shields switch in shields header"
+  },
+  "shieldsHeaderToggleLeftPosition": {
+    "message": "Tidak beroperasi",
+    "description": "Label for top shields switch in shields header turned off position"
+  },
+  "shieldsHeaderToggleRightPosition": {
+    "message": "Naik",
+    "description": "Label for top shields switch in shields header turned on position"
+  },
+  "shieldsHeaderForSite": {
+    "message": "Pengaturan shield situs untuk",
+    "description": "Label for shields header near current site name"
+  },
+
+  "shieldsControlsAdvancedControls": {
+    "message": "Kontrol Lanjutan",
+    "description": "Label for advanced controls group"
+  },
+
+  "shieldsControlsAdControl": {
+    "message": "Kontrol Iklan",
+    "description": "Label for Advertisement Control dropdown box options "
+  },
+  "shieldsControlsAdControlOptionBlockAds": {
+    "message": "Blokir Iklan",
+    "description": "Ad Control dropdown box, option block ads"
+  },
+  "shieldsControlsAdControlOptionAllowAdsTracking": {
+    "message": "Izinkan Iklan dan Pelacakan",
+    "description": "Ad Control dropdown box, option allow ads and tracking"
+  },
+
+  "shieldsControlsCookieControl": {
+    "message": "Kontrol Cookie",
+    "description": "Label Cookie Control dropdown options"
+  },
+  "shieldsControlsCookieOptionBlock3p": {
+    "message": "Blokir Cookie Pihak Ke-3",
+    "description": "Cookie control dropdown option Block 3rd Party Cookies"
+  },
+  "shieldsControlsCookieOptionAllowAll": {
+    "message": "Izinkan Semua Cookie",
+    "description": "Cookie control dropdown option Allow All Cookies"
+  },
+  "shieldsControlsCookieOptionBlockAll": {
+    "message": "Blokir Semua Kuki",
+    "description": "Cookie control dropdown option Block All Cookies"
+  },
+
+  "shieldsControlsFingerprintingProtection": {
+    "message": "Perlindungan Pengambilan Sidik Jari",
+    "description": "Label Fingerprinting Protection dropdown options"
+  },
+  "shieldsControlsFingerprintingOptionBlock3p": {
+    "message": "Blokir Pengambilan Sidik Jari Pihak Ke-3",
+    "description": "Fingerprinting control dropdown option Block 3rd Party Fingerprinting"
+  },
+  "shieldsControlsFingerprintingOptionAllowAll": {
+    "message": "Izinkan Semua Pengambilan Sidik Jari",
+    "description": "Fingerprinting control dropdown option Allow All Fingerprinting"
+  },
+  "shieldsControlsFingerprintingOptionBlockAll": {
+    "message": "Blokir Semua Pengambilan Sidik Jari",
+    "description": "Fingerprinting control dropdown option Block All Fingerprinting"
+  },
+
+  "shieldsControlsHttpsEverywhereSwitch": {
+    "message": "HTTPS di Segala Tempat",
+    "description": "Shields controls, switch for HTTPS Everywhere"
+  },
+  "shieldsControlsBlockScriptsSwitch": {
+    "message": "Blokir Script",
+    "description": "Shields controls, switch for Block Scripts"
+  },
+  "shieldsControlsBlockPhishingMalwareSwitch": {
+    "message": "Blokir Phishing/Malware",
+    "description": "Shields controls, switch for Block Phishing/Malware"
+  },
+
+  "noScriptSwitches": {
+    "message": "Tombol dwiarah untuk menonaktifkan pemblokiran script",
+    "description": "Instructions for per-origin noScript switches"
+  },
+  "noScriptApplyOnce": {
+    "message": "Terapkan",
+    "description": "Label for applying per-origin noScript settings"
+  },
+
+  "shieldsFooterEditDefault":{
+    "message": "Sunting pengaturan pelindung default...",
+    "description": "Shields controls footer, link to edit default shields settings"
+  },
+  "shieldsFooterReload":{
+    "message": "Muat ulang...",
+    "description": "Shields controls footer, label for action reload page to apply current shields settings"
+  }
+}

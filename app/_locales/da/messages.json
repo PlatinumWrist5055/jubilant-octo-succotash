@@ -1,0 +1,123 @@
+{
+  "appName": {
+    "message": "Brave-udvidelsen",
+    "description": "The name of the the extension."
+  },
+
+  "shieldsStatsAdsTrackersBlocked": {
+    "message": "Annoncer og trackere blokeret",
+    "description": "Website ads and trackering elements such as pixels, images, scripts, etc."
+  },
+  "shieldsStatsHttpsUpgrades": {
+    "message": "HTTPS Opgraderinger",
+    "description": "Label for shields stats, HTTPS upgrades count"
+  },
+  "shieldsStatsScriptsBlocked": {
+    "message": "Scripts blokeret",
+    "description": "Label for shields stats, Scripts Blocked count"
+  },
+  "shieldsFingerPrintingBlocked": {
+    "message": "Fingeraftryksmetoder Blokeret",
+    "description": "Label for shields stats, Fingerprinting Methods Blocked count"
+  },
+
+  "shieldsHeaderShieldsToggle": {
+    "message": "Shields",
+    "description": "Label for top shields switch in shields header"
+  },
+  "shieldsHeaderToggleLeftPosition": {
+    "message": "Nede",
+    "description": "Label for top shields switch in shields header turned off position"
+  },
+  "shieldsHeaderToggleRightPosition": {
+    "message": "Op",
+    "description": "Label for top shields switch in shields header turned on position"
+  },
+  "shieldsHeaderForSite": {
+    "message": "Side beskyttelsesindstillinger for",
+    "description": "Label for shields header near current site name"
+  },
+
+  "shieldsControlsAdvancedControls": {
+    "message": "Avanceret Styring",
+    "description": "Label for advanced controls group"
+  },
+
+  "shieldsControlsAdControl": {
+    "message": "Reklamekontrol",
+    "description": "Label for Advertisement Control dropdown box options "
+  },
+  "shieldsControlsAdControlOptionBlockAds": {
+    "message": "Bloker annoncer",
+    "description": "Ad Control dropdown box, option block ads"
+  },
+  "shieldsControlsAdControlOptionAllowAdsTracking": {
+    "message": "Tillad annoncer og sporing",
+    "description": "Ad Control dropdown box, option allow ads and tracking"
+  },
+
+  "shieldsControlsCookieControl": {
+    "message": "Cookiekontrol",
+    "description": "Label Cookie Control dropdown options"
+  },
+  "shieldsControlsCookieOptionBlock3p": {
+    "message": "Blokér cookies fra 3. part ",
+    "description": "Cookie control dropdown option Block 3rd Party Cookies"
+  },
+  "shieldsControlsCookieOptionAllowAll": {
+    "message": "Tillad Alle Cookies ",
+    "description": "Cookie control dropdown option Allow All Cookies"
+  },
+  "shieldsControlsCookieOptionBlockAll": {
+    "message": "Bloker Alle Cookies",
+    "description": "Cookie control dropdown option Block All Cookies"
+  },
+
+  "shieldsControlsFingerprintingProtection": {
+    "message": "Fingeraftryksbeskyttelse",
+    "description": "Label Fingerprinting Protection dropdown options"
+  },
+  "shieldsControlsFingerprintingOptionBlock3p": {
+    "message": "Bloker tredjeparts fingeraftryk",
+    "description": "Fingerprinting control dropdown option Block 3rd Party Fingerprinting"
+  },
+  "shieldsControlsFingerprintingOptionAllowAll": {
+    "message": "Tillad Altid at der kan tages fingeraftryk",
+    "description": "Fingerprinting control dropdown option Allow All Fingerprinting"
+  },
+  "shieldsControlsFingerprintingOptionBlockAll": {
+    "message": "Bloker alle fingeraftryk",
+    "description": "Fingerprinting control dropdown option Block All Fingerprinting"
+  },
+
+  "shieldsControlsHttpsEverywhereSwitch": {
+    "message": "HTTPS Overalt ",
+    "description": "Shields controls, switch for HTTPS Everywhere"
+  },
+  "shieldsControlsBlockScriptsSwitch": {
+    "message": "Bloker scripts",
+    "description": "Shields controls, switch for Block Scripts"
+  },
+  "shieldsControlsBlockPhishingMalwareSwitch": {
+    "message": "Bloker phishing/malware",
+    "description": "Shields controls, switch for Block Phishing/Malware"
+  },
+
+  "noScriptSwitches": {
+    "message": "Flyt på skiftere for at slå blokering af scripts fra",
+    "description": "Instructions for per-origin noScript switches"
+  },
+  "noScriptApplyOnce": {
+    "message": "Ansøg",
+    "description": "Label for applying per-origin noScript settings"
+  },
+
+  "shieldsFooterEditDefault":{
+    "message": "Rediger standard beskyttelsesindstillinger...",
+    "description": "Shields controls footer, link to edit default shields settings"
+  },
+  "shieldsFooterReload":{
+    "message": "Genindlæs...",
+    "description": "Shields controls footer, label for action reload page to apply current shields settings"
+  }
+}
