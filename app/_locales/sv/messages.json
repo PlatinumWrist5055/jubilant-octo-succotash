@@ -1,0 +1,123 @@
+{
+  "appName": {
+    "message": "Brave-utvidgningen",
+    "description": "The name of the the extension."
+  },
+
+  "shieldsStatsAdsTrackersBlocked": {
+    "message": "Annonser och spårare har blockerats",
+    "description": "Website ads and trackering elements such as pixels, images, scripts, etc."
+  },
+  "shieldsStatsHttpsUpgrades": {
+    "message": "HTTPS uppgraderingar",
+    "description": "Label for shields stats, HTTPS upgrades count"
+  },
+  "shieldsStatsScriptsBlocked": {
+    "message": "Script blockerade",
+    "description": "Label for shields stats, Scripts Blocked count"
+  },
+  "shieldsFingerPrintingBlocked": {
+    "message": "Fingeravtrycksmetoder blockerade",
+    "description": "Label for shields stats, Fingerprinting Methods Blocked count"
+  },
+
+  "shieldsHeaderShieldsToggle": {
+    "message": "Sköldar",
+    "description": "Label for top shields switch in shields header"
+  },
+  "shieldsHeaderToggleLeftPosition": {
+    "message": "Ned",
+    "description": "Label for top shields switch in shields header turned off position"
+  },
+  "shieldsHeaderToggleRightPosition": {
+    "message": "Upp",
+    "description": "Label for top shields switch in shields header turned on position"
+  },
+  "shieldsHeaderForSite": {
+    "message": "Skyddsinställningar för sajten",
+    "description": "Label for shields header near current site name"
+  },
+
+  "shieldsControlsAdvancedControls": {
+    "message": "Avancerade inställningar",
+    "description": "Label for advanced controls group"
+  },
+
+  "shieldsControlsAdControl": {
+    "message": "Annonskontroll",
+    "description": "Label for Advertisement Control dropdown box options "
+  },
+  "shieldsControlsAdControlOptionBlockAds": {
+    "message": "Blockera annonser",
+    "description": "Ad Control dropdown box, option block ads"
+  },
+  "shieldsControlsAdControlOptionAllowAdsTracking": {
+    "message": "Tillåt annonser och spårning",
+    "description": "Ad Control dropdown box, option allow ads and tracking"
+  },
+
+  "shieldsControlsCookieControl": {
+    "message": "Kakinställningar",
+    "description": "Label Cookie Control dropdown options"
+  },
+  "shieldsControlsCookieOptionBlock3p": {
+    "message": "Blockera tredjepartscookies",
+    "description": "Cookie control dropdown option Block 3rd Party Cookies"
+  },
+  "shieldsControlsCookieOptionAllowAll": {
+    "message": "Tillåt alla cookies",
+    "description": "Cookie control dropdown option Allow All Cookies"
+  },
+  "shieldsControlsCookieOptionBlockAll": {
+    "message": "Blockera alla cookies",
+    "description": "Cookie control dropdown option Block All Cookies"
+  },
+
+  "shieldsControlsFingerprintingProtection": {
+    "message": "Fingeravtrycksskydd",
+    "description": "Label Fingerprinting Protection dropdown options"
+  },
+  "shieldsControlsFingerprintingOptionBlock3p": {
+    "message": "Blockera signaturinsamling av tredjepart",
+    "description": "Fingerprinting control dropdown option Block 3rd Party Fingerprinting"
+  },
+  "shieldsControlsFingerprintingOptionAllowAll": {
+    "message": "Tillåt alla fingeravtryck",
+    "description": "Fingerprinting control dropdown option Allow All Fingerprinting"
+  },
+  "shieldsControlsFingerprintingOptionBlockAll": {
+    "message": "Blockera all signaturinsamling",
+    "description": "Fingerprinting control dropdown option Block All Fingerprinting"
+  },
+
+  "shieldsControlsHttpsEverywhereSwitch": {
+    "message": "HTTPS överallt",
+    "description": "Shields controls, switch for HTTPS Everywhere"
+  },
+  "shieldsControlsBlockScriptsSwitch": {
+    "message": "Blockera script",
+    "description": "Shields controls, switch for Block Scripts"
+  },
+  "shieldsControlsBlockPhishingMalwareSwitch": {
+    "message": "Blockera nätfiske/skadlig programvara",
+    "description": "Shields controls, switch for Block Phishing/Malware"
+  },
+
+  "noScriptSwitches": {
+    "message": "Växla knapparna för att stänga av skriptblockering",
+    "description": "Instructions for per-origin noScript switches"
+  },
+  "noScriptApplyOnce": {
+    "message": "Tillämpa",
+    "description": "Label for applying per-origin noScript settings"
+  },
+
+  "shieldsFooterEditDefault":{
+    "message": "Redigera sköldens standardinställningar...",
+    "description": "Shields controls footer, link to edit default shields settings"
+  },
+  "shieldsFooterReload":{
+    "message": "Ladda om...",
+    "description": "Shields controls footer, label for action reload page to apply current shields settings"
+  }
+}
