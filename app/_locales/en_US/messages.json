@@ -1,0 +1,94 @@
+{
+  "appName": {
+    "message": "The Brave Extension",
+    "description": "The name of the the extension."
+  },
+  "shields": {
+    "message": "Shields",
+    "description": "The Shields feature name"
+  },
+  "up": {
+    "message": "up",
+    "description": "Message for when shields is enabled"
+  },
+  "down": {
+    "message": "down",
+    "description": "Message for when shields is disabled"
+  },
+  "totalBlocked": {
+    "message": "Total blocked",
+    "description": "Message showing the amount of all blocked resources"
+  },
+  "forThisSite": {
+    "message": "for this site",
+    "description": "Partial string for the phrase `shields is up *for this site*`"
+  },
+  "enabledMessage": {
+    "message": "If a site appears broken, try shields down",
+    "description": "Message telling the user to disable shields if a site appears broken"
+  },
+  "disabledMessage": {
+    "message": "You’re browsing this site without any privacy and security protections.",
+    "description": "Message telling the user that shields are disabled"
+  },
+  "blockAds": {
+    "message": "Ads and trackers blocked",
+    "description": "Message indicating the number of ads and trackers blocked"
+  },
+  "blockPopups": {
+    "message": "Pop-ups blocked",
+    "description": "Message indicating the number of pop-ups blocked"
+  },
+  "blockImages": {
+    "message": "Images blocked",
+    "description": "Message indicating the number of images blocked"
+  },
+  "block3partyCookies": {
+    "message": "3rd-party cookies blocked",
+    "description": "Message for the select option about cookies blocked, blocking 3rd party cookies"
+  },
+  "allowAllCookies": {
+    "message": "All cookies allowed",
+    "description": "Message for the select option about cookies blocked, allowing all cookies"
+  },
+  "blockAllCookies": {
+    "message": "All cookies blocked",
+    "description": "Message for the select option about cookies blocked, blocking all cookies"
+  },
+  "block3partyScripts": {
+    "message": "3rd-party scripts blocked",
+    "description": "Message for the select option about scripts blocked, blocking 3rd party scripts"
+  },
+  "allowAllScripts": {
+    "message": "Allow all scripts",
+    "description": "Message for the select option about scripts blocked, allowing all scripts"
+  },
+  "blockAllScripts": {
+    "message": "All scripts blocked",
+    "description": "Message for the select option about scripts blocked, blocking all scripts"
+  },
+  "block3partyFingerprinting": {
+    "message": "3rd-party device recognition blocked",
+    "description": "Message for the select option about fingerprinting blocked, blocking 3rd party fingerprinting"
+  },
+  "allowAllFingerprinting": {
+    "message": "All device recognition allowed",
+    "description": "Message for the select option about fingerprinting blocked, allowing all fingerprinting"
+  },
+  "blockAllFingerprinting": {
+    "message": "All device recognition blocked",
+    "description": "Message for the select option about fingerprinting blocked, blocking all fingerprinting"
+  },
+  "blockPishing": {
+    "message": "Phishing/malware attempts blocked",
+    "description": "Message indicating the number of phishing/malware blocked"
+  },
+  "connectionsEncrypted": {
+    "message": "Connections encrypted",
+    "description": "Message indicating the number of connections encrypted"
+  },
+  "editDefaults": {
+    "message": "Global shield defaults",
+    "description": "Message linking shields to the global shield settings"
+  }
+}
