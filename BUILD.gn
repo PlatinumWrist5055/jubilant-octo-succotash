@@ -1,0 +1,87 @@
+import("//build/util/branding.gni")
+import("//build/util/version.gni")
+import("//chrome/common/features.gni")
+import("//tools/grit/grit_rule.gni")
+
+declare_args() {
+  brave_extension_webpack_public_path = "http://localhost:3000"
+}
+
+action("build") {
+  sources = [
+    "app/components/braveShields/braveShields.tsx",
+    "app/components/braveShields/braveShieldsControls.tsx",
+    "app/components/braveShields/braveShieldsFooter.tsx",
+    "app/components/braveShields/braveShieldsHeader.tsx",
+    "app/components/braveShields/braveShieldsStats.tsx",
+    "app/braveShieldsPanel.tsx",
+    # TODO(bridiver) - all tsx files should be listed here or changes won't trigger a rebuild
+    "app/views/background.pug",
+    "app/views/braveShieldsPanel.pug",
+    "app/views/inject.pug",
+  ]
+
+  # env = "dev"
+  # webpack_public_path = brave_extension_webpack_public_path
+  # if (is_official_build) {
+    webpack_public_path = ""
+    env = "prod"
+  # }
+
+  inputs = [
+    "scripts/build.js",
+  ]
+
+  script = "py-scripts/build-brave-extension.py"
+
+  args = [ rebase_path("."), rebase_path("$root_gen_dir/brave_extension"), "'$webpack_public_path'", env ]
+
+  outputs = [
+    "$root_gen_dir/brave_extension/js/background.bundle.js",
+    "$root_gen_dir/brave_extension/js/braveShieldsPanel.bundle.js",
+    "$root_gen_dir/brave_extension/braveShieldsPanel.html",
+    "$root_gen_dir/brave_extension/background.html",
+    "$root_gen_dir/brave_extension/inject.html",
+  ]
+
+  deps = [
+    ":manifest",
+  ]
+}
+
+copy("manifest") {
+  sources = []
+  # if (is_official_build) {
+  #   sources += [ "//brave/vendor/brave-extension/app/manifest.dev.json"]
+  # } else {
+    sources += [ "//brave/vendor/brave-extension/app/manifest.prod.json"]
+  # }
+
+  outputs = [ "$root_gen_dir/brave_extension/manfiest.json" ]
+}
+
+grit("generated_resources") {
+  source = "resources/brave_extension.grd"
+
+  source_is_generated = true
+
+  grit_flags = [
+    "-E",
+    "root_gen_dir=" + rebase_path(root_gen_dir),
+  ]
+
+  output_dir = "$root_gen_dir/brave/browser/resources"
+  outputs = [
+    "grit/brave_extension.h",
+    "grit/brave_extension_resources_map.cc",
+    "grit/brave_extension_resources_map.h",
+    "brave_extension.pak",
+  ]
+
+  deps = [
+    ":build",
+    "resources",
+  ]
+
+  resource_ids = "//brave/browser/resources/resource_ids"
+}
